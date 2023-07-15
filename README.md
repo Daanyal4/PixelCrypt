@@ -56,36 +56,3 @@ To run this project, you need to have the following installed:
 10. The program will decrypt the image using the same bitwise XOR operation and save the decrypted image as a new file.
 11. Repeat steps 3-10 as desired.
 12. Choose option `3` to exit the program.
-
-## Example
-
-Here's an example of how the program flow looks:
-
-```
-python main.py
-
-```
-
-```
-Image Encryption and Decryption
-
-1. Image Encryption
-2. Image Decryption
-3. Exit
-
-Choose an option: 1
-Enter the path to the image file: /path/to/image.png
-Enter the encryption key: mykey
-
-Image encrypted successfully and saved as encrypted_image.png.
-
-Choose an option: 2
-Enter the path to the encrypted image file: /path/to/encrypted_image.png
-Enter the decryption key: mykey
-
-Image decrypted successfully and saved as decrypted_image.png.
-
-Choose an option: 3
-Exiting the program...
-
-```#
