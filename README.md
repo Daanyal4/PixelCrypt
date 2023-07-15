@@ -24,7 +24,7 @@ To run this project, you need to have the following installed:
 2. Navigate to the project directory:
     
     ```
-    cd 
+    cd PixelCrypt
     ```
     
 
@@ -33,7 +33,7 @@ To run this project, you need to have the following installed:
 1. Run the `main.py` file to start the program.
     
     ```
-    python main.py
+    python3 main.py
     
     ```
     
