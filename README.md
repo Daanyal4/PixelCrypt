@@ -17,7 +17,7 @@ To run this project, you need to have the following installed:
 1. Clone the repository to your local machine using the following command:
     
     ```
-    git clone <https://github.com/your-username/your-repo.git>
+    git clone <https://github.com/Daanyal4/PixelCrypt.git>
     
     ```
     
