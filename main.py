@@ -1,6 +1,6 @@
 from starter import starter
 
-print("""
+print(r"""
  ________________________________________________
   _____ _          _  _____                  _   
  |  __ (_)        | |/ ____|                | |  
@@ -12,5 +12,9 @@ print("""
                                  |___/|_|            
  ________________________________________________\n""")
 
-starter()
+while True:
+    starter()
+    restart = input("Do you want to make another choice? (yes/no): ").lower()
+    if restart != 'yes':
+        break
 

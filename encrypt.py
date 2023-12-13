@@ -1,6 +1,12 @@
 import os
 
 def encrypt_image(path, key):
+    """
+    Encrypts an image file using XOR operation with the given key.
+
+    :param path: Path to the image file.
+    :param key: Encryption key (integer).
+    """
     # Print the path of the image file and encryption key
     print('Path of the file:', path)
     print('Key for encryption:', key)
@@ -24,6 +30,6 @@ def encrypt_image(path, key):
             file.write(encrypted_image)
 
         print('Encryption completed. Encrypted image saved as:', encrypted_path)
-    except IOError:
-        print('Error: An error occurred while encrypting the image.')
+    except IOError as e:
+        print(f'Error: An error occurred while encrypting the image. {e}')
 
